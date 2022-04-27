@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="builds.html">Builds</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Quality Without The Compromise</h1>     
+            <p>Dux Systems provides our customers with custom-made computers that meet their needs following their respective financial plans. Whether a gamer needs a computer that can run the latest video games at the highest graphics settings or a business needs new quality, cost-effective workstations, we can provide exactly what the customer is seeking at a price that undercuts the competition. We aim to serve you and your business by providing you with computers that meet your needs both technologically and financially.
+                Although Dux Systems is a new small business, we possess tremendous flexibility, creativity, and determination. Our team is familiar with the inner workings of modern computer technology and the consumer computer market, finding the best deals on the latest hardware directly from the manufacturers so we can build your ideal machines at or near cost. Additionally, some of us have already been building and tinkering with computers for years, so we have a lot of experience to draw from. We will not rest until the customer owns effective computers that we have diligently and carefully crafted.</p>
+            <a href="builds.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/Computer.png">
+        </div>
+    </div>    
+</section>
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    <!-------- footer ---------->
+
+<section class="footer">
+    <h4>Follow Us on Social Media</h4>
+    <div class="icons">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-instagram"></i></a>  
+    </div>
+</section>    
+</body>
+</html>    
